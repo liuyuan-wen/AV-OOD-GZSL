@@ -1,6 +1,8 @@
 # AV-OOD-GZSL
 This is the official implementation of my paper: Audio-Visual Out-Of-Distribution for Generalized Zero-shot Learning, which has been accepted to the The 35th British Machine Vision Conference ([BMVC2024](https://bmvc2024.org/))
 
+![Image description](img/framework.png)
+
 ## Downloading Dataset
 We adopted the same dataset as AVCA-GZSL, which can be found in [here](https://github.com/ExplainableML/AVCA-GZSL?tab=readme-ov-file#downloading-our-features).
 
