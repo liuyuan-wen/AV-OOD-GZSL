@@ -21,3 +21,15 @@ To train and test the model, run the following command:
     python main.py config/vgg_test.yaml
 
 or simply run the `run_avood.sh` script.
+
+## References
+If you find this code useful, please consider citing our paper:
+
+```
+@inproceedings{wen2024bmvc,
+  title={Audio-Visual Out-Of-Distribution for Generalized Zero-shot Learning},
+  author={Liuyuan, Wen},
+  booktitle={Proceedings of the British Machine Vision Conference (BMVC)},
+  year={2024}
+}
+```
