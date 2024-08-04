@@ -1,0 +1,73 @@
+run_file_path: test_l+l_0.2_0.3_0.2
+exp_name: activity_main
+device: cuda
+seed: 42
+input_size_audio: 512
+input_size_video: 512
+test_metrics: False
+
+dataset:
+  dataset_name: ActivityNet
+  root_set: avgzsl_benchmark_datasets
+  feature_extraction_method:  main_features
+  zero_shot_split: main_split
+  manual_text_word2vec: False
+
+# feature generator
+gen:
+  epochs: 5
+
+# ood detector
+ood:
+  epochs: 80
+  lr: 0.005
+  bs: 64
+  syn_num: 1000
+  hidden_size1: 512
+  hidden_size2: 128
+  beta: 0.5
+
+# seen classifier
+clss: 
+  epochs: 200
+  lr: 0.008
+  bs: 128
+  beta: 0.5
+
+# unseen classifier
+clsu:
+  epochs: 50
+  num_workers: 8
+  bs: 256
+  n_batches: 500
+  lr: 0.0005
+
+  # dropouts
+  r_enc: 0.2
+  r_proj: 0.3
+  r_dec: 0.2
+
+  hidden_size_encoder: 512
+  hidden_size_decoder: 512
+  dim_out: 64
+  embedding_use_bn: False
+  decoder_use_bn: False
+  depth_transformer: 1
+  earlystop: 5
+  margin: 1.0
+  momentum: 0.99
+  
+  # negative losses
+  ltrip_neg: True
+  lreg_neg: True
+  lrec_neg: True
+
+  lr_scheduler: True
+  save_checkpoints: False
+  z_score_inputs: False
+  distance_fn: L2Loss  # L2Loss, SquaredL2Loss
+  evaluation_mode: video  # video, audio, both
+  scan_pretrain: False
+  multi_evaluation: False
+
+
