@@ -1,5 +1,5 @@
 # AV-OOD-GZSL
-This is the official implementation of my paper: Audio-Visual Out-Of-Distribution for Generalized Zero-shot Learning, which has been accepted to the The 35th British Machine Vision Conference ([BMVC2024](https://bmvc2024.org/))
+This is the official implementation of my paper: [Audio-Visual Out-Of-Distribution for Generalized Zero-shot Learning](https://arxiv.org/abs/2408.01284), which has been accepted to the The 35th British Machine Vision Conference ([BMVC2024](https://bmvc2024.org/))
 
 ![Image description](img/framework.png)
 
