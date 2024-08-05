@@ -33,3 +33,6 @@ If you find this code useful, please consider citing our paper:
   year={2024}
 }
 ```
+
+## Applying for PhD
+Dear Professor, I am currently seeking a PhD position and would be honored to be considered. If you are interested, please feel free to contact me at lywen@mail.ustc.edu.cn for my CV and additional materials. I am fully committed to giving my best effort in this pursuit. Best regards.
