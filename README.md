@@ -1,5 +1,8 @@
+# Applying for PhD
+Dear Professor, I am currently seeking a PhD position and would be honored to be considered. If you are interested, please feel free to contact me at lywen@mail.ustc.edu.cn for my CV and additional materials. I am fully committed to giving my best effort in this pursuit. Best regards.
+
 # AV-OOD-GZSL
-This is the official implementation of my paper: [Audio-Visual Out-Of-Distribution for Generalized Zero-shot Learning](https://arxiv.org/abs/2408.01284), which has been accepted to the The 35th British Machine Vision Conference ([BMVC2024](https://bmvc2024.org/))
+This is the official implementation of my paper: [Audio-Visual Out-Of-Distribution for Generalized Zero-shot Learning](https://arxiv.org/abs/2408.01284), which has been accepted to The 35th British Machine Vision Conference ([BMVC2024](https://bmvc2024.org/)).
 
 ![Image description](img/framework.png)
 
@@ -33,6 +36,3 @@ If you find this code useful, please consider citing our paper:
   year={2024}
 }
 ```
-
-## Applying for PhD
-Dear Professor, I am currently seeking a PhD position and would be honored to be considered. If you are interested, please feel free to contact me at lywen@mail.ustc.edu.cn for my CV and additional materials. I am fully committed to giving my best effort in this pursuit. Best regards.
