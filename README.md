@@ -20,7 +20,7 @@ To train and test the model, run the following command:
     python main.py config/activity_test.yaml
     python main.py config/vgg_test.yaml
 
-or simply run the `run_avood.sh` script.
+or uniformly modify and run the `run_avood.sh` script.
 
 ## References
 If you find this code useful, please consider citing our paper:
